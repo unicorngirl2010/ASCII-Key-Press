@@ -1,5 +1,5 @@
 // Create a reference for the canvas
-canvas + document.getElementById('myCanvas');
+canvas = document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 
 img_width = 300;
